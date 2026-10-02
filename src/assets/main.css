@@ -1,0 +1,32 @@
+@import './base.css';
+
+:root {
+  color-scheme: dark;
+  font-family: Inter, 'Segoe UI', sans-serif;
+  background: #0b1020;
+}
+
+html, body, #app {
+  margin: 0;
+  min-height: 100%;
+  min-width: 320px;
+  background: #0b1020;
+}
+
+body {
+  min-height: 100vh;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
